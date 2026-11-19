@@ -1,0 +1,16 @@
+{
+  "name": "mcp-consultivo-tributario",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "openai": "^7.60.0",
+    "zod": "^4.6.7"
+  }
+}

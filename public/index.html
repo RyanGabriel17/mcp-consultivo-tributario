@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCP Consultivo Tributário Empresarial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Projeto universitário</p>
+      <h1>MCP Consultivo Tributário Empresarial</h1>
+    </div>
+    <div id="statusServidor" class="status status-verificando">
+      <span class="status-dot"></span>
+      <span>Verificando servidor...</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Ferramenta MCP</p>
+          <h2>Diagnóstico empresarial</h2>
+        </div>
+      </div>
+
+      <form id="formDiagnostico" class="form-grid">
+        <label>
+          Atividade econômica
+          <input name="atividade" type="text" placeholder="Ex.: Comércio varejista" required>
+        </label>
+        <label>
+          CNAE
+          <input name="cnae" type="text" placeholder="Ex.: 47.13-1">
+        </label>
+        <label>
+          Regime tributário
+          <select name="regime_tributario" required>
+            <option value="">Selecione</option>
+            <option>Simples Nacional</option>
+            <option>Lucro Presumido</option>
+            <option>Lucro Real</option>
+            <option>Outro ou não informado</option>
+          </select>
+        </label>
+        <label>
+          Faturamento anual (R$)
+          <input name="faturamento_anual" type="number" min="0" step="0.01" placeholder="Ex.: 800000">
+        </label>
+        <label>
+          UF
+          <input name="uf" type="text" minlength="2" maxlength="2" placeholder="Ex.: SP" required>
+        </label>
+        <label>
+          Município
+          <input name="municipio" type="text" placeholder="Ex.: São Paulo">
+        </label>
+        <button class="primary" type="submit">Realizar diagnóstico</button>
+      </form>
+
+      <div id="resultadoDiagnostico" class="result" aria-live="polite"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Base legislativa oficial</p>
+          <h2>Consulta à Reforma Tributária</h2>
+        </div>
+      </div>
+
+      <form id="formLegislacao" class="legislation-form">
+        <label>
+          Assunto
+          <select name="assunto" required>
+            <option value="IBS">IBS</option>
+            <option value="CBS">CBS</option>
+            <option value="Imposto Seletivo">Imposto Seletivo</option>
+            <option value="Regras de transição">Regras de transição</option>
+          </select>
+        </label>
+        <button class="secondary" type="submit">Consultar legislação</button>
+      </form>
+
+      <div id="resultadoLegislacao" class="result" aria-live="polite"></div>
+    </section>
+
+    <section class="panel chat-panel">
+      <div class="section-heading chat-heading">
+        <div>
+          <p class="eyebrow">Assistente em preparação</p>
+          <h2>Chat com IA</h2>
+        </div>
+        <button id="limparChat" class="chat-clear" type="button">Limpar conversa</button>
+      </div>
+
+      <div id="chatMensagens" class="chat-messages" aria-live="polite">
+        <div class="chat-message assistant">
+          <span class="chat-label">Assistente</span>
+          <p>Envie uma pergunta. Enquanto a integração não estiver configurada, informarei que a IA ainda está pendente.</p>
+        </div>
+      </div>
+
+      <form id="formChat" class="chat-form">
+        <label class="chat-label-input">
+          <span>Mensagem</span>
+          <textarea id="chatInput" rows="3" maxlength="2000" placeholder="Digite sua pergunta sobre a Reforma Tributária..."></textarea>
+        </label>
+        <button id="chatEnviar" class="primary chat-send" type="submit">Enviar</button>
+      </form>
+      <p id="chatErro" class="chat-error" role="alert"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

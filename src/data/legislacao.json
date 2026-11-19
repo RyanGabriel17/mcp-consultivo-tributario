@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "titulo": "Base simplificada da Reforma Tributária",
+    "data_verificacao": "2026-11-19",
+    "objetivo": "Consulta acadêmica introdutória, sem cálculos, alíquotas fechadas ou parecer jurídico.",
+    "limitacoes": "O resumo não substitui a leitura integral das normas nem consulta a regulamentos posteriores. Devem ser conferidas a vigência, alterações, vetos e a compilação oficial antes de uso profissional."
+  },
+  "assuntos": {
+    "IBS": {
+      "titulo": "Imposto sobre Bens e Serviços (IBS)",
+      "explicacao": "O IBS é o imposto de competência compartilhada entre Estados, Distrito Federal e Municípios sobre operações com bens materiais ou imateriais, inclusive direitos, e sobre serviços, conforme a Constituição Federal e a legislação complementar.",
+      "fundamentos": [
+        {
+          "norma": "EC 132/2023",
+          "dispositivo": "Arts. 156-A e 156-B da Constituição Federal, incluídos pela Emenda",
+          "situacao": "Fonte constitucional oficial verificada",
+          "link": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+        },
+        {
+          "norma": "LC 214/2025",
+          "dispositivo": "Art. 1º, I; Livro I, Título I, sobre normas gerais do IBS e da CBS",
+          "situacao": "Texto oficial verificado. A página também indica atualizações introduzidas pela LC 227/2026.",
+          "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        },
+        {
+          "norma": "LC 227/2026",
+          "dispositivo": "Altera e revoga dispositivos da LC 214/2025 e institui o CGIBS",
+          "situacao": "Alteração oficial verificada na página do texto compilado relacionado",
+          "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm"
+        }
+      ]
+    },
+    "CBS": {
+      "titulo": "Contribuição Social sobre Bens e Serviços (CBS)",
+      "explicacao": "A CBS é a contribuição federal sobre operações com bens e serviços instituída no contexto da reforma tributária sobre o consumo.",
+      "fundamentos": [
+        {
+          "norma": "EC 132/2023",
+          "dispositivo": "Art. 195, V, da Constituição Federal, alterado pela Emenda",
+          "situacao": "Fonte constitucional oficial verificada",
+          "link": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+        },
+        {
+          "norma": "LC 214/2025",
+          "dispositivo": "Art. 1º, II; Livro I, Título I, sobre normas gerais do IBS e da CBS",
+          "situacao": "Texto oficial verificado. Considere alterações posteriores publicadas pela LC 227/2026.",
+          "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        },
+        {
+          "norma": "LC 227/2026",
+          "dispositivo": "Alterações e revogações relacionadas à administração e às regras comuns do IBS e da CBS",
+          "situacao": "Alteração oficial verificada",
+          "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm"
+        }
+      ]
+    },
+    "Imposto Seletivo": {
+      "titulo": "Imposto Seletivo (IS)",
+      "explicacao": "O Imposto Seletivo é previsto para a produção, extração, comercialização ou importação de bens e serviços prejudiciais à saúde ou ao meio ambiente, conforme o alcance definido pela legislação.",
+      "fundamentos": [
+        {
+          "norma": "EC 132/2023",
+          "dispositivo": "Art. 153, VIII, da Constituição Federal",
+          "situacao": "Fonte constitucional oficial verificada",
+          "link": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+        },
+        {
+          "norma": "LC 214/2025",
+          "dispositivo": "Art. 1º, III; Livro II, relativo ao Imposto Seletivo",
+          "situacao": "Instituição e regras gerais verificadas no texto oficial",
+          "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        },
+        {
+          "norma": "LC 227/2026",
+          "dispositivo": "Alterações relacionadas à LC 214/2025",
+          "situacao": "Alterações oficiais verificadas; alíquotas concretas não são fornecidas nesta base",
+          "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm"
+        }
+      ]
+    },
+    "Regras de transição": {
+      "titulo": "Regras de transição",
+      "explicacao": "A reforma prevê fases de implantação dos novos tributos e a substituição gradual de tributos existentes. Datas específicas e procedimentos devem ser confirmados no texto vigente e em regulamentações posteriores.",
+      "fundamentos": [
+        {
+          "norma": "EC 132/2023",
+          "dispositivo": "Artigos 125 a 129 do Ato das Disposições Constitucionais Transitórias",
+          "situacao": "Dispositivos constitucionais de transição verificados",
+          "link": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm"
+        },
+        {
+          "norma": "LC 214/2025",
+          "dispositivo": "Título VIII do Livro I, sobre a transição para o IBS e a CBS",
+          "situacao": "Texto oficial verificado",
+          "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        },
+        {
+          "norma": "LC 227/2026",
+          "dispositivo": "Alterações aplicáveis à LC 214/2025",
+          "situacao": "Alterações oficiais verificadas; vigência detalhada deve ser conferida na página oficial",
+          "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp227.htm"
+        }
+      ]
+    }
+  }
+}
